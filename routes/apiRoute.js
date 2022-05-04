@@ -17,3 +17,4 @@ router.get('/notes', (req, res) => {
     })
     .catch((err)=> res.status(500).json(err));
 });
+module.exports=router;
